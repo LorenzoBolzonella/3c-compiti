@@ -2,6 +2,7 @@
 // Bolzonella Lorenzo 3c
 using namespace std;
 
+// modifica
 int main()
 {
     int x;// Inserimento prima variabile
