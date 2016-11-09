@@ -8,14 +8,16 @@ int main ()
     double N_maggiore;
     double N_minore;
     double somma;
-    cout << " Quanti numeri vuole immettere?" << endl;
+    cout << endl << "                           Esercizio 29 pagina 69                              " << endl;
+    cout << endl << "-------------------------------------------------------------------------------" << endl;
+    cout << endl << " Quanti numeri vuole immettere?  " << endl;
     cin >> N;
 
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < N; i++)
     {
-        system ("CLS");
+
         double X;
-        cout << endl << "Immetta i vari numeri: " << endl;
+        cout << endl << "Immetta il numero scelto: " << endl;
         cin >> X;
         if (i == 0)
             {
@@ -35,7 +37,7 @@ int main ()
         }
         somma = somma + X;
     }
-    cout << " Il numero minore e': " << N_minore << endl;
-    cout << " Il numero maggiore e': " << N_maggiore << endl;
-    cout << " La media e': " << somma/N << endl;
+    cout << " Il numero minore tra quelli scelti e': " << N_minore << endl;
+    cout << " Il numero maggiore tra quelli scelti e': " << N_maggiore << endl;
+    cout << " La media tra i numeri scelti e': " << somma/N << endl;
 }

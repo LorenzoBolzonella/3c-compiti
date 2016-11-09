@@ -1,7 +1,7 @@
 #include <iostream>
 // Bolzonella Lorenzo 3c
 using namespace std;
-
+// modifivs
 int main(){
     int X=0; // entrata nel programma da parte di X
     int Q=0; // entrata nel programma da parte di Q
